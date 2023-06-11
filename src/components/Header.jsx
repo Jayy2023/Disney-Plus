@@ -32,7 +32,7 @@ const Header = () => {
             </a>
 
       </NavMenu>
-      <UserImg  src="/images 2/jordan.PNG"/>
+      <UserImg  src="/images 2/JaxtynBeach.JPG"/>
     </Nav>
   )
 }
