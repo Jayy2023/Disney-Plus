@@ -38,7 +38,7 @@ const Carousel = styled(Slider)`
         }
     }
 
-    li.slick-active button::before{
+    li.slick-active button:before{
         color: white;
     }
 
@@ -51,6 +51,7 @@ const Carousel = styled(Slider)`
 
 `
 const Wrap = styled.div`
+    cursor: pointer;
     img {
         border: 4px solid transparent;
         width: 100%;
@@ -58,5 +59,10 @@ const Wrap = styled.div`
         border-radius: 4px;
         box-shadow: rgb(0 0 0/ 69%) 0px 26px 30px -10px,
         rgb(0 0 0/ 73%) 0px 16px 10px -10px;
+        transition-duration: 300ms;
+
+        &:hover {
+            border: 4px solid rgba(249, 249, 249, 0.8);
+        }
     }
 `
